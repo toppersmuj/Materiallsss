@@ -112,7 +112,58 @@ const subjects = [
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1WonGMHUbrQ_LnZrF024GMbiYZxuNUk_Z" },
     ],
   },
-  
+  {
+    id: "DV",
+    title: "Data Visualization",
+    image: "",
+    href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
+    resources: [
+      { label: "PYQs", href: "" },
+      { label: "Topper Notes", href: "" },
+      { label: "Video Playlists", href: "" },
+      { label: "Roadmap", href: "/coming-soon" },
+      { label: "PPT Links", href: "" },
+    ],
+  },
+  {
+    id: "FDS",
+    title: "Fundamentals of Data Structures",
+    image: "",
+    href: "",
+    resources: [
+      { label: "PYQs", href: "" },
+      { label: "Topper Notes", href: "" },
+      { label: "Video Playlists", href: "" },
+      { label: "Roadmap", href: "/coming-soon" },
+      { label: "PPT Links", href: "" },
+    ],
+  },
+  {
+    id: "ET",
+    title: "Electrical Technology",
+    image: "",
+    href: "",
+    resources: [
+      { label: "PYQs", href: "" },
+      { label: "Topper Notes", href: "" },
+      { label: "Video Playlists", href: "" },
+      { label: "Roadmap", href: "/coming-soon" },
+      { label: "PPT Links", href: "" },
+    ],
+  },
+  {
+    id: "AM1",
+    title: "Applied Mathematics 1",
+    image: "",
+    href: "",
+    resources: [
+      { label: "PYQs", href: "" },
+      { label: "Topper Notes", href: "" },
+      { label: "Video Playlists", href: "" },
+      { label: "Roadmap", href: "/coming-soon" },
+      { label: "PPT Links", href: " " },
+    ],
+  },
 ];
 
 export default function PhysicsCycleSubjects() {
