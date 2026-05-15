@@ -157,7 +157,7 @@ const subjects = [
     image: "",
     href: "",
     resources: [
-      { label: "PYQs", href: "" },
+      { label: "PYQs", href: "a" },
       { label: "Topper Notes", href: "" },
       { label: "Video Playlists", href: "" },
       { label: "Roadmap", href: "/coming-soon" },
