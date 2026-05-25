@@ -26,7 +26,7 @@ const years = [
     id: "3rd-year",
     icon: "📈",
     title: "3rd Year",
-    image: "/3rd-year.jpg",
+    image: "/3rd-year.png",
     description: "Advanced topics, specialization courses, and project-based learning materials.",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1o7guWs-tMcxJUuANpCaHScTqlWZgi3W9?usp=drive_link" },
@@ -40,7 +40,7 @@ const years = [
     id: "4th-year",
     icon: "🎓",
     title: "4th Year",
-    image: "/4th-year.jpg",
+    image: "/4th-year.png",
     description: "Final year projects, placement prep, and advanced elective course materials.",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1r-No_0JUOsHhISOYp2IMtNBmhoyfI_Kt?usp=drive_link" },

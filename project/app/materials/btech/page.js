@@ -33,7 +33,7 @@ const branches = [
     id: "cybersecurity",
     title: "CYBER SECURITY",
     icon: "📊",
-    image: "/CYBERSECURITY.png",
+    image: "/CYBERSEC.png",
     href: "/materials/btech/cybersecurity",
   },
   {
