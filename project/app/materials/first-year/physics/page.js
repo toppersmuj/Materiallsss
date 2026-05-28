@@ -11,7 +11,7 @@ const subjects = [
   {
     id: "engineering-physics",
     title: "Engineering Physics",
-    image: "https://lh3.googleusercontent.com/d/1QCfejlbeRO0kpAtty2lWBn63khnO95xt",
+    image: "/physics-ep.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/EngineeringPhysics",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1JaOn7wg3bmtV8rYkXGSwcMbfoKHik6E5?usp=drive_link" },
@@ -24,7 +24,7 @@ const subjects = [
   {
     id: "computational-mathematics",
     title: "Computational Mathematics",
-    image: "https://lh3.googleusercontent.com/d/1hisb4ZBSJfngIez3m1HXLrFTTy1UCq24",
+    image: "/physics-cm.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/ComputationalMathematics",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1E9xiBOD7h4fPZmhdEPcgHbdfMCQFJShj?usp=drive_link" },
@@ -37,7 +37,7 @@ const subjects = [
   {
     id: "psuc",
     title: "PSUC",
-    image: "https://lh3.googleusercontent.com/d/1qNmcdINQ1sgw6dVt2AaUsF2z3-ucWqNZ",
+    image: "/psuc.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/PhysicsScienceandUseofComputers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1xSFhkhFRR1PH4ditPRf_FVIkfdK4JkRa?usp=drive_link" },
@@ -50,7 +50,7 @@ const subjects = [
   {
     id: "wcs",
     title: "WCS",
-    image: "https://lh3.googleusercontent.com/d/1n3ruALsALtnMSccMInUch_83O7MXDKgG",
+    image: "/physics-wcs.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/WorkshopandComputerSkills",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1UU1oz91PhMZ5l2EdY9biGW7y6NorYtuo?usp=drive_link" },
@@ -63,7 +63,7 @@ const subjects = [
   {
     id: "evs",
     title: "EVS",
-    image: "https://lh3.googleusercontent.com/d/1fC03trFyiq4_laftnwfPbJ8OR8uCJMU_",
+    image: "/physics-evs.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/EnvironmentalScience",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1hQJghqn4Vf-QaqwhguMY4ftBO7eW8VHD?usp=drive_link" },
@@ -76,7 +76,7 @@ const subjects = [
   {
     id: "biology-for-engineers",
     title: "Biology for Engineers",
-    image: "https://lh3.googleusercontent.com/d/1R0KHNYsTXQN0z7JoqeowUxZTTdB8-iZ8",
+    image: "/physics-bio.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1jxiFP_HFpCYDSPb2hwd2wJHZrYbgqPPz?usp=drive_link" },
@@ -89,7 +89,7 @@ const subjects = [
   {
     id: "MATLAB",
     title: "MATLAB",
-    image: "https://lh3.googleusercontent.com/d/1VI8XbXhDGD3FpWEA6smBB6PzWQTEw9oj",
+    image: "/physics-matlab.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB" },
@@ -102,7 +102,7 @@ const subjects = [
   {
     id: "Engineering Materials and Mechanics",
     title: "Engineering Materials and Mechanics",
-    image: "https://lh3.googleusercontent.com/d/19_UNq8im_qVEyvqlxprzVc8yCBsdL2tA",
+    image: "/physics-emm.png",
     href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA" },
