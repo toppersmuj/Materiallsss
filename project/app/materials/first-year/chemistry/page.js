@@ -11,7 +11,7 @@ const subjects = [
   {
     id: "bme",
     title: "Basic Mechanical Engineering",
-    image: "https://lh3.googleusercontent.com/d/11a5cvbC7YpQn4boHbrh6kPIVUO8xzJuU",
+    image: "/chemistry-bme.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1iFt8KI6RlCJuKmh_eS5BrpZTY9zceAtF?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1LDW0nEprx0ist_bksa1yfVvkkSVUSiVY?usp=drive_link" },
@@ -23,7 +23,7 @@ const subjects = [
   {
     id: "cam",
     title: "Calculus And Matrices",
-    image: "https://lh3.googleusercontent.com/d/1z5kUxQ7anWM2lZP7xO0Um8FjUnQtp_n9",
+    image: "/chemistry-cam.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/12GoSnbJ23iwIIOpoHXh_D6s7lNGBIZj0?usp=sharing" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1jYUROJAOM8qdC8PV068oBWgNYLFemrSP?usp=sharing" },
@@ -35,7 +35,7 @@ const subjects = [
   {
     id: "communication",
     title: "Communication Skills",
-    image: "https://lh3.googleusercontent.com/d/1v3a1pK0Z-8M39Qy3lzkKxUx6aNl8bTs4",
+    image: "/chemistry-cs.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1YeLSrKw8RlW4bq8h9xiIL0cm0_XALBsL?usp=sharing" },
       { label: "Topper Notes", href: "/coming-soon" },
@@ -47,7 +47,7 @@ const subjects = [
   {
     id: "digital-systems",
     title: "Digital Systems",
-    image: "https://lh3.googleusercontent.com/d/16DCGRHQ47_AONewupSgHI2Bu4AIxlNts",
+    image: "/chemistry-ds.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1yeExodboTvLqQlFLK1HpgUUqB9DCPzw9?usp=sharing" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1cZ-9hZf6qAxPq499xetV_5xkwY0wovf0?usp=drive_link" },
@@ -59,7 +59,7 @@ const subjects = [
   {
     id: "eg",
     title: "Engineering Graphics",
-    image: "https://lh3.googleusercontent.com/d/1JSy-5VyjEQr0MmWlbmI0kHkUKAWwdL1q",
+    image: "/chemistry-eg.png",
     resources: [
       { label: "PYQs", href: "/coming-soon" },
       { label: "Topper Notes", href: "/coming-soon" },
@@ -71,7 +71,7 @@ const subjects = [
   {
     id: "electronics-circuits",
     title: "Electronics Circuits",
-    image: "https://lh3.googleusercontent.com/d/1z85zcd5EZ21t9d4T54gR8_ipA4UwT0dY",
+    image: "/chemistry-ec.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1COX_yd-Rc3P5MVjuvYr6Qj0xpxZL1g8L?usp=sharing" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1WScrhWKFeUoa5SzvWhHtEJCNsD0X3pbv?usp=sharing" },
@@ -83,7 +83,7 @@ const subjects = [
   {
     id: "engineering-chemistry",
     title: "Engineering Chemistry",
-    image: "https://lh3.googleusercontent.com/d/1MqrNRIk3J15k-rvr1MWGKtDyR5wM0u1b",
+    image: "/chemistry-ecm.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1GD1HGrput-7Tuy6QxZtJu8MLQ8xXihcp?usp=sharing" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/18zJ9h_wWpwApCFPuBxh3XZqwJw1coffG?usp=sharing" },
@@ -95,7 +95,7 @@ const subjects = [
   {
     id: "manufacturing",
     title: "Manufacturing Process",
-    image: "https://lh3.googleusercontent.com/d/1E3PvbXn7CnkhZzVFUjMf4mx55e3TTtGr",
+    image: "/chemistry-mp.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1-yr6RUFYjKx9G2iRFmAIgKgxDj8awZgJ?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1Ktml0qp-4zDY3LnlT_LDm-8-ozf-CYV4?usp=drive_link" },
@@ -119,7 +119,7 @@ const subjects = [
   {
     id: "uhv",
     title: "Universal Human Values",
-    image: "https://lh3.googleusercontent.com/d/1FzEx20wSMwJv31pkTmz5a94PmrpHsZJg",
+    image: "/chemistry-uhv.png",
     resources: [
       { label: "PYQs", href: "/coming-soon" },
       { label: "Topper Notes", href: "/coming-soon" },
