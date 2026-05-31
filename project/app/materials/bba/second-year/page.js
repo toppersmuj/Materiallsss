@@ -11,7 +11,7 @@ const subjects = [
   {
     id: "advertising-management",
     title: "Advertising Management",
-    image: "/bbasyam.png",
+    image: "https://lh3.googleusercontent.com/d/1t0zjqp3vjGiziXUsyM9h37akGJhfjg0K",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1-d4cdyNU8QTy0zXFzHfLPZQ7J-XVhupD?usp=drive_link" },
@@ -24,7 +24,7 @@ const subjects = [
   {
     id: "brm",
     title: "BRM",
-    image: "/bbasyb.png",
+    image: "https://lh3.googleusercontent.com/d/1ETbMC28ETUN6lGgBPoOgjkcIrjOBvGif",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1Fr_PEe-dhebD_0tAvEy-RsrpmGl9E_1x?usp=drive_link" },
@@ -37,7 +37,7 @@ const subjects = [
   {
     id: "consumer-behaviour",
     title: "Consumer Behaviour",
-    image: "/bbasycb.png",
+    image: "https://lh3.googleusercontent.com/d/1p9Of028aN6aVlCKUBVrhkAzdlQ3NYhBL",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1SLWjexd6yeUtW7FQcOvkYTZe2lEAR2fu?usp=drive_link" },
@@ -50,7 +50,7 @@ const subjects = [
   {
     id: "corporate-law",
     title: "Corporate Law",
-    image: "/bbasycl.png",
+    image: "https://lh3.googleusercontent.com/d/1_f-AVJ6G9ebgd_uZMMAVpa5xecqekoEE",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1WNXBCMkwHEHY4DzN6jofJujbn1pxi4UZ?usp=drive_link" },
@@ -63,7 +63,7 @@ const subjects = [
   {
     id: "crm",
     title: "CRM",
-    image: "/bbasyc.png",
+    image: "https://lh3.googleusercontent.com/d/1Atp0kCQyZoj33neElP9f2-iInkKEVfsy",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/13gBjXJOA73q4NfUCuHANivEDJ74qn0SN?usp=drive_link" },
@@ -76,7 +76,7 @@ const subjects = [
   {
     id: "english-sem2",
     title: "English Sem 2",
-    image: "/bbasyes2.png",
+    image: "https://lh3.googleusercontent.com/d/1p6PnsT0FGh1801nHf6E_INS3x-bGqyht",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1Z7cmFSgASYy8z5eHdNL1dFKT12Otb9uR?usp=drive_link" },
@@ -89,7 +89,7 @@ const subjects = [
   {
     id: "evs",
     title: "EVS",
-    image: "/bbasyevs.png",
+    image: "https://lh3.googleusercontent.com/d/1fC03trFyiq4_laftnwfPbJ8OR8uCJMU_",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1wyEtlKPkaUOcG5PhM1Zf0Xwl4BZpR4hm?usp=drive_link" },
@@ -102,7 +102,7 @@ const subjects = [
   {
     id: "excel",
     title: "Excel",
-    image: "/bbasye.png",
+    image: "https://lh3.googleusercontent.com/d/1okuvIEE_6vQaE80qOcZgp8LNr2sGEAF8",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1sGlo5xqZcwzjym1RIBQAz2f0lIHFq7QD?usp=drive_link" },
@@ -115,7 +115,7 @@ const subjects = [
   {
     id: "french",
     title: "French",
-    image: "/bbasyf.png",
+    image: "https://lh3.googleusercontent.com/d/1v5ioVv92PYaWWXhVHqZ9lNaLGms97Q1F",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1yGYgUBdC5SH3yxPSLF6qGco8xW-Lj3Fm?usp=drive_link" },
@@ -128,7 +128,7 @@ const subjects = [
   {
     id: "management-accounting",
     title: "Management Accounting",
-    image: "/bbasyma.png",
+    image: "https://lh3.googleusercontent.com/d/1jrv0W8A0eEsRUfZwucS0LlDhs2EikB6Y",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1rmIIVEULxlGMgQYXSIzgJUygV5BEnVXQ?usp=drive_link" },
@@ -141,7 +141,7 @@ const subjects = [
   {
     id: "marketing-of",
     title: "Marketing of Services",
-    image: "/bbasymos.png",
+    image: "https://lh3.googleusercontent.com/d/1VJtpO6pgv7FwAhbMUifbv0nJ78nhRjOx",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1GidMSW2xZxiJq_XmjRFune0-uLBnBOW7?usp=drive_link" },
@@ -154,7 +154,7 @@ const subjects = [
   {
     id: "marketing-research",
     title: "Marketing Research",
-    image: "/bbasymr.png",
+    image: "https://lh3.googleusercontent.com/d/1Q4lURQbB948XezFFgltdF8jhYJh5u0tq",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1qfL1JxRvMqB67WyKZflmJsYcuUQ5CK8d?usp=drive_link" },
@@ -167,7 +167,7 @@ const subjects = [
   {
     id: "product-brand",
     title: "Product Brand Management",
-    image: "/bbasypbm.png",
+    image: "https://lh3.googleusercontent.com/d/1jzWagHYTvUuMzUklcaVc8f2KcZe5koWh",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1HyAGtdhi5UZx7wL8lPJP56GCkU4F7f9K?usp=drive_link" },
@@ -180,7 +180,7 @@ const subjects = [
   {
     id: "productions",
     title: "Productions and Operations Management",
-    image: "/bbasyp.png",
+    image: "https://lh3.googleusercontent.com/d/1cEdWh-igtkDrOK5mvPz2QNKsP7FagC7-",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1TgVuCn4F6CM_byzlbQw66ImFbmWPh2Us?usp=drive_link" },
@@ -193,7 +193,7 @@ const subjects = [
   {
     id: "project-planning",
     title: "Project Planning and Control",
-    image: "/bbasypp.png",
+    image: "https://lh3.googleusercontent.com/d/1IWbHgQytZ97xmeHJLOdhPLpptOQMcepe",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1ea4MZdtiUuR3oP1FozFHQBVowP0n10Ru?usp=drive_link" },
@@ -206,7 +206,7 @@ const subjects = [
   {
     id: "statistics",
     title: "Statistics",
-    image: "/bbasys.png",
+    image: "https://lh3.googleusercontent.com/d/1PDx7jugft-8pAzcNRvKkCZOS_irLtL9g",
     href: "https://drive.google.com/drive/folders/1JhFS_M_K4uejbSJIxh3FPtYU-6UgHjdk",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1CVntJllbA1qVGL15U7f0DxB1LJgsYrV5?usp=drive_link" },
