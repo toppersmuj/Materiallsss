@@ -5,7 +5,7 @@ const years = [
     id: "first-year",
     icon: "📚",
     title: "First Year",
-    image: "https://lh3.googleusercontent.com/d/12IcyZQi37bXuFb7GJ_a9BKkjtUwSiJ--",
+    image: "/bbafy.png",
     description:
       "Foundation business courses and core fundamentals with curated lecture notes and PYQs.",
     href: "/materials/bba/first-year",
@@ -15,7 +15,7 @@ const years = [
     id: "second-year",
     icon: "📈",
     title: "Second Year",
-    image: "https://lh3.googleusercontent.com/d/1XwwqRAAplENuLs43SSNAnd9Z9n-M8rN3",
+    image: "/bbasy.png",
     description:
       "Advanced business modules, finance briefs, and case-study breakdowns for second year.",
     href: "/materials/bba/second-year",
