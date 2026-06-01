@@ -12,7 +12,7 @@ const years = [
     id: "2nd-year",
     icon: "📚",
     title: "2nd Year",
-    image: "https://lh3.googleusercontent.com/d/1XwwqRAAplENuLs43SSNAnd9Z9n-M8rN3",
+    image: "/2nd-year.png",
     description: "Core engineering courses and fundamentals with curated lecture notes and PYQs.",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1RVDOTH3it7v1xi2TO2hM1r_HPkoGsyml?usp=drive_link" },
@@ -26,7 +26,7 @@ const years = [
     id: "3rd-year",
     icon: "📈",
     title: "3rd Year",
-    image: "https://lh3.googleusercontent.com/d/1cI7vkYb3k7DkKcoDY_7auDnQ9f7QImIM",
+    image: "/3rd-year.png",
     description: "Advanced topics, specialization courses, and project-based learning materials.",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/16iYECMobLiEJstuOP3QrcXfF6Y9mh0lL?usp=drive_link" },
@@ -40,7 +40,7 @@ const years = [
     id: "4th-year",
     icon: "🎓",
     title: "4th Year",
-    image: "https://lh3.googleusercontent.com/d/1xLPmD47Q-mmDOuM0zt_Vu4hCwfDHJWl5",
+    image: "/4th-year.png",
     description: "Final year projects, placement prep, and advanced elective course materials.",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1kbaZlgIFlL8kHTdI642AhnvRPLnolfXO?usp=drive_link" },
