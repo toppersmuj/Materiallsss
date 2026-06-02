@@ -12,7 +12,6 @@ const subjects = [
     id: "engineering-physics",
     title: "Engineering Physics",
     image: "/physics-ep.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/EngineeringPhysics",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1JaOn7wg3bmtV8rYkXGSwcMbfoKHik6E5?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1thY2E0lTfi5lLWc675FUhFaJ0xBlq_qF?usp=drive_link" },
@@ -25,7 +24,6 @@ const subjects = [
     id: "computational-mathematics",
     title: "Computational Mathematics",
     image: "/physics-cm.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/ComputationalMathematics",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1E9xiBOD7h4fPZmhdEPcgHbdfMCQFJShj?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1uwQXdisM65p-Th-sUXc1TPh-X1mi8EbB?usp=drive_link" },
@@ -38,7 +36,6 @@ const subjects = [
     id: "psuc",
     title: "PSUC",
     image: "/psuc.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/PhysicsScienceandUseofComputers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1xSFhkhFRR1PH4ditPRf_FVIkfdK4JkRa?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1sg0akPy_zBDDKiWKU_8pmuOTLlgyNtkq?usp=drive_link" },
@@ -51,7 +48,6 @@ const subjects = [
     id: "wcs",
     title: "WCS",
     image: "/physics-wcs.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/WorkshopandComputerSkills",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1UU1oz91PhMZ5l2EdY9biGW7y6NorYtuo?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1k9ByGWxq_vYW9qqd5I8D_hIfe8p2QN2p?usp=drive_link" },
@@ -64,7 +60,6 @@ const subjects = [
     id: "evs",
     title: "EVS",
     image: "/physics-evs.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/EnvironmentalScience",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1hQJghqn4Vf-QaqwhguMY4ftBO7eW8VHD?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1cgnHpUK_ETAGC0GGl8IwZABdXvyjhMP7?usp=drive_link" },
@@ -77,7 +72,6 @@ const subjects = [
     id: "biology-for-engineers",
     title: "Biology for Engineers",
     image: "/physics-bio.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1jxiFP_HFpCYDSPb2hwd2wJHZrYbgqPPz?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1a1onO670Zw09Ko-PNrISSzP97AI1xZSl?usp=drive_link"},
@@ -90,7 +84,6 @@ const subjects = [
     id: "MATLAB",
     title: "MATLAB",
     image: "/physics-matlab.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/u/0/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa" },
@@ -103,7 +96,6 @@ const subjects = [
     id: "Engineering Materials and Mechanics",
     title: "Engineering Materials and Mechanics",
     image: "/physics-emm.png",
-    href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/u/0/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n" },
@@ -115,10 +107,9 @@ const subjects = [
   {
     id: "DV",
     title: "Data Visualization",
-    image: "",
-    href: "https://www.mujtoppers.in/branch/first/subjects/BiologyForEngineers",
+    image: "/DV.png",
     resources: [
-      { label: "PYQs", href: "" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1icdRleVL_OB6mx2Mj3dZAwEwDC0JxM2Z?usp=drive_link" },
       { label: "Topper Notes", href: "" },
       { label: "Video Playlists", href: "" },
       { label: "Roadmap", href: "/coming-soon" },
@@ -128,23 +119,21 @@ const subjects = [
   {
     id: "FDS",
     title: "Fundamentals of Data Structures",
-    image: "",
-    href: "",
+    image: "/FDS.png",
     resources: [
-      { label: "PYQs", href: "" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1Mgft8Oi7PmlsmKSjqeckIemCeQIkJsFU?usp=drive_link" },
       { label: "Topper Notes", href: "" },
       { label: "Video Playlists", href: "" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1xselz6CvZGbDxyR6mqXJPdWCyNtWjWzn?usp=drive_link" },
     ],
   },
   {
     id: "ET",
     title: "Electrical Technology",
-    image: "",
-    href: "",
+    image: "/ET.png",
     resources: [
-      { label: "PYQs", href: "" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/17VytjjVlUCyV5tkcBIVB1voVufQ5gQBz?usp=drive_link" },
       { label: "Topper Notes", href: "" },
       { label: "Video Playlists", href: "" },
       { label: "Roadmap", href: "/coming-soon" },
@@ -154,14 +143,13 @@ const subjects = [
   {
     id: "AM1",
     title: "Applied Mathematics 1",
-    image: "",
-    href: "",
+    image: "/AM1.png",
     resources: [
-      { label: "PYQs", href: "a" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1MvhGP7ida4115J-dwY3mHMJkQYo4R8Wo?usp=drive_link" },
       { label: "Topper Notes", href: "" },
       { label: "Video Playlists", href: "" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: " " },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1N-OqAd4b_vFHvxoqLBKSpDJ3urRlsqJc?usp=drive_link" },
     ],
   },
 ];

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { getPPTPreviewUrl } from "@/lib/googleDrive";
+import { getDriveDownloadUrl, getPPTPreviewUrl } from "@/lib/googleDrive";
 
 export default function PPTViewerModal({ file, onClose }) {
   const [iframeKey, setIframeKey] = useState(Date.now());
@@ -63,6 +63,17 @@ export default function PPTViewerModal({ file, onClose }) {
             </p>
           </div>
           <div className="flex items-center gap-2 ml-4">
+            <a
+              href={getDriveDownloadUrl(file.id)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-sm font-medium transition"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v12m0 0l-4-4m4 4 4-4M5 21h14" />
+              </svg>
+              Download
+            </a>
             <a
               href={`https://drive.google.com/file/d/${file.id}/view`}
               target="_blank"

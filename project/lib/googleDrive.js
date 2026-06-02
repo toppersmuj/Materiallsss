@@ -117,6 +117,15 @@ export function getPDFPreviewUrl(fileId) {
 }
 
 /**
+ * Get Google Drive download URL
+ * @param {string} fileId - The Google Drive file ID
+ * @returns {string} Download URL
+ */
+export function getDriveDownloadUrl(fileId) {
+  return `https://drive.google.com/uc?export=download&id=${fileId}`;
+}
+
+/**
  * Get alternative PDF preview URL using Google Docs Viewer
  * Better compatibility with Android Chrome's cookie restrictions
  * @param {string} fileId - The Google Drive file ID
