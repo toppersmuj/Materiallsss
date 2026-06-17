@@ -38,44 +38,42 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full shadow-md py-3 px-4 sm:px-6 z-50 border-b border-black bg-white/80 backdrop-blur-md font-sans">
+      <nav className="fixed top-0 left-0 w-full bg-white shadow-md py-3 px-6 flex items-center z-50 border-b border-black transition-all">
         <div className="max-w-[1400px] mx-auto w-full flex items-center justify-between">
           {/* Logo */}
-          <Link href="https://www.mujtoppers.in/" className="flex items-center ml-[-8px] sm:ml-[-12px]">
-            <span className="text-lg font-bold text-black tracking-tight uppercase">
-              MUJTOPPERS
-            </span>
+          <Link  href="https://www.mujtoppers.in/" className="text-lg font-bold ml-5 text-black">
+          MUJTOPPERS
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-5 mr-[-8px] sm:mr-[-12px]">
+          <div className="hidden lg:flex gap-x-6 ml-auto mr-5">
             <Link
               href="https://www.mujtoppers.in/"
-              className="text-[16px] font-bold text-black hover:bg-black hover:text-white transition-all px-4 py-2 rounded-lg"
+              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             >
               Home
             </Link>
             <Link
               href="https://material.mujtoppers.in "
-              className="text-[16px] font-bold text-black hover:bg-black hover:text-white transition-all px-4 py-2 rounded-lg"
+              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             >
               Material
             </Link>
             <Link
               href="https://www.mujtoppers.in/collegeTip"
-              className="text-[16px] font-bold text-black hover:bg-black hover:text-white transition-all px-4 py-2 rounded-lg"
+              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             >
               College Tip
             </Link>
             <Link
               href="https://www.mujtoppers.in/blogs"
-              className="text-[16px] font-bold text-black hover:bg-black hover:text-white transition-all px-4 py-2 rounded-lg"
+              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             >
               Blogs
             </Link>
             <Link
               href="https://about.mujtoppers.in/"
-              className="text-[16px] font-bold text-black hover:bg-black hover:text-white transition-all px-4 py-2 rounded-lg"
+              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             >
               About Us
             </Link>
@@ -83,12 +81,10 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden ml-auto mr-5">
-  <Menu
-  onClick={() => setIsMenuOpen(true)}
-  className="cursor-pointer text-black"
-  size={32}
-/>
-</div>
+            <Menu
+            onClick={() => setIsMenuOpen(true)}
+            className="cursor-pointer text-black"/>
+          </div>
           {/* <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-black hover:bg-black/5 active:bg-black/10 focus:outline-none transition-colors"
@@ -119,7 +115,7 @@ export default function Navbar() {
         <div className="fixed inset-0 bg-black/50 z-50">
           <div
             id="mobile-menu"
-            className="absolute top-0 right-0 bg-white min-h-screen w-2/3 shadow-lg p-5"
+            className="absolute top-0 right-0 bg-white min-h-screen w-2/3 shadow-lg p-5 transition-all"
           >
             <button
               className="absolute top-5 right-5 text-black"
@@ -133,7 +129,7 @@ export default function Navbar() {
                 <Link
                   href="https://www.mujtoppers.in/"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-lg text-black font-semibold"
+                  className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
                 >
                   Home
                 </Link>
@@ -143,7 +139,7 @@ export default function Navbar() {
                 <Link
                   href="https://material.mujtoppers.in/"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-lg text-black font-semibold"
+                  className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
                 >
                   Material
                 </Link>
@@ -153,7 +149,7 @@ export default function Navbar() {
                 <Link
                   href="https://www.mujtoppers.in/collegeTip"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-lg text-black font-semibold"
+                  className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
                 >
                   College Tip
                 </Link>
@@ -163,7 +159,7 @@ export default function Navbar() {
                 <Link
                   href="https://www.mujtoppers.in/blogs"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-lg text-black font-semibold"
+                  className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
                 >
                   Blogs
                 </Link>
@@ -173,7 +169,7 @@ export default function Navbar() {
                 <Link
                   href="https://about.mujtoppers.in/"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-lg text-black font-semibold"
+                  className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
                 >
                   About Us
                 </Link>
