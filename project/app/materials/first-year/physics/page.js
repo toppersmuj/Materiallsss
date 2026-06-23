@@ -13,11 +13,11 @@ const subjects = [
     title: "Engineering Physics",
     image: "/physics-ep.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1JaOn7wg3bmtV8rYkXGSwcMbfoKHik6E5?usp=drive_link" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1thY2E0lTfi5lLWc675FUhFaJ0xBlq_qF?usp=drive_link" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh?usp=drive_link" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke?usp=drive_link" },
       { label: "Video Playlists", href: "https://www.youtube.com/playlist?list=PLuAADu3OvBt495Awir13ZNM-gv5IwLGQy" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1tMWeeRZ-9qhmQ0hoMlngzVmXSei-wotk/view?usp=sharing" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1qo2PcLf95yoRm1xVwjNzbLZ8pxTMLTMP?usp=drive_link" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1vLEnibhuw07qeEWdmO3hHFX2VIqULpvh?usp=drive_link" },
     ],
   },
   {
@@ -37,7 +37,7 @@ const subjects = [
     title: "PSUC",
     image: "/psuc.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1xSFhkhFRR1PH4ditPRf_FVIkfdK4JkRa?usp=drive_link" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1uCD8YvS2FX9jSoSpuRSvkeNMPVzXvg29?usp=sharing" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1sg0akPy_zBDDKiWKU_8pmuOTLlgyNtkq?usp=drive_link" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=aZb0iu4uGwA&t=8493s" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1z157mHPpnqS9nuAURS0gR14bUGUt7Cap/view?usp=sharing" },
@@ -53,7 +53,7 @@ const subjects = [
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1k9ByGWxq_vYW9qqd5I8D_hIfe8p2QN2p?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1DcBG73Oy-yFUONh1-IiTtcnGGHjdThPN?usp=drive_link" },
+      { label: "PPT Links", href: " https://drive.google.com/drive/folders/1DcBG73Oy-yFUONh1-IiTtcnGGHjdThPN?usp=drive_link" },
     ],
   },
   {

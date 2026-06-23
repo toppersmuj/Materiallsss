@@ -25,8 +25,8 @@ const subjects = [
     title: "Calculus And Matrices",
     image: "/chemistry-cam.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/12GoSnbJ23iwIIOpoHXh_D6s7lNGBIZj0?usp=sharing" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1jYUROJAOM8qdC8PV068oBWgNYLFemrSP?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm?usp=drive_link" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV?usp=sharing" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=p5rBJj5CKCg&list=PLU6SqdYcYsfLPxjd-k-MaoG7qgRQ-2fKc" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1Z5iIhj5j7em8VY-FNC9xkQUMJl5kX-ld/view?usp=sharing" },
       { label: "PPT Links", href: "/coming-soon" },
@@ -37,11 +37,11 @@ const subjects = [
     title: "Communication Skills",
     image: "/chemistry-cs.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1YeLSrKw8RlW4bq8h9xiIL0cm0_XALBsL?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1Ka7AT18HKHu_WjIBSoloGI_9VHm-ar5t?usp=drive_link" },
       { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1huqgnywcxKrFvGrPbJC8RUd1LUfQTlvq?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1EJvTLXLNNGXs26FfqDtPMg-oAJxVFyX_?usp=drive_link" },
     ],
   },
   {
@@ -65,7 +65,7 @@ const subjects = [
       { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1aUb1NUHRMYv5NsmD5uMYMKimcqIrPQ6T?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1_xlOxa4S28HidItfxGys9pqDylkTirD-?usp=drive_link" },
     ],
   },
   {
@@ -73,8 +73,8 @@ const subjects = [
     title: "Electronics Circuits",
     image: "/chemistry-ec.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1COX_yd-Rc3P5MVjuvYr6Qj0xpxZL1g8L?usp=sharing" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1WScrhWKFeUoa5SzvWhHtEJCNsD0X3pbv?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1T2KhOCchylff1UyLZ2jyipmGmHtDx1Sd?usp=drive_link" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1JnVhkK5vg93hTzYq11Cr7NE8seneqdU1?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1yeR_8v8ZqD450_rL8koQdaMEq7m8_47f?usp=sharing" },
@@ -85,11 +85,11 @@ const subjects = [
     title: "Engineering Chemistry",
     image: "/chemistry-ecm.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1GD1HGrput-7Tuy6QxZtJu8MLQ8xXihcp?usp=sharing" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/18zJ9h_wWpwApCFPuBxh3XZqwJw1coffG?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1pP4zpZHNyD9Zp1peFPRYePpMXvwEWZCV?usp=drive_link" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1hER7WzvapxKzG4i3pIayLRU3ICTYwjSF?usp=drive_link" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=XCZakSI-M0I&list=PLLf6O8XdGj03gLo6znlqJbMzgIgt8tSU1" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/16lzdUUL7USIeFMzqevtAgesfDCpDaO4s?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1xuQFW0faBSTQdQw5nzJoi646hlLdoysw?usp=drive_link" },
     ],
   },
   {
@@ -110,7 +110,7 @@ const subjects = [
     image: "https://lh3.googleusercontent.com/d/1qNmcdINQ1sgw6dVt2AaUsF2z3-ucWqNZ",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1uCD8YvS2FX9jSoSpuRSvkeNMPVzXvg29?usp=sharing" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1teWpDZeuxAY17BzwD00TMB0QCFdaoDWO?usp=sharing" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1nj16NcCCIgI3kmmkT-eisrKg_BKN2yKA?usp=drive_link" },
       { label: "Video Playlists", href: "https://youtu.be/aZb0iu4uGwA?si=VZgQb_cPf9gTpxnq" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1z157mHPpnqS9nuAURS0gR14bUGUt7Cap/view?usp=sharing" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1NFKR4nxD6nRoM06WgRyp6rbZ6GHouUKr?usp=sharing" },
