@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Shared verification cookie
+
+This app trusts the shared `site_access_verified` cookie used by the main Mujtoppers site. In production, any code that writes this cookie should set `domain=.mujtoppers.in` and `path=/` so the browser sends the same session to both the main site and subdomains. In local development, omit the shared domain so the cookie stays host-only and still works on localhost.
