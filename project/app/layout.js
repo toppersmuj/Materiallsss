@@ -43,21 +43,17 @@ const isDevelopment = process.env.NODE_ENV === "development";
 
 const connectSrc = [
   "'self'",
-
-  // Google APIs
   "https://www.googleapis.com",
   "https://drive.google.com",
   "https://docs.google.com",
-
-  // MUJ Toppers (root + all subdomains)
   "https://mujtoppers.in",
   "https://*.mujtoppers.in",
-
-  // Local development
   isDevelopment && "http://localhost:3000",
-
-  // Vercel Analytics
   "https://vitals.vercel-insights.com",
+  "https://mujtoppers.in",
+  "https://material.mujtoppers.in",
+  "http://mujtoppers.in",
+  "http://material.mujtoppers.in"
 ]
   .filter(Boolean)
   .join(" ");

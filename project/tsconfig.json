@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
     "target": "ES2017",
     "lib": [
       "dom",
@@ -7,6 +14,7 @@
       "esnext"
     ],
     "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "strict": false,
     "noEmit": true,
