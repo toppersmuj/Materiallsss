@@ -2,7 +2,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import ProtectionScript from "./components/ProtectionScript";
 import Navbar from "./components/Navbar";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,12 +22,14 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "MUJ Toppers",
-  description: "Curated study materials, PYQs, notes, and resources for MUJ students - First Year, BBA, and BTech",
+  description:
+    "Curated study materials, PYQs, notes, and resources for MUJ students - First Year, BBA, and BTech",
   robots: "index, follow",
   openGraph: {
     type: "website",
     title: "MUJ Toppers",
-    description: "Curated study materials, PYQs, notes, and resources for MUJ students",
+    description:
+      "Curated study materials, PYQs, notes, and resources for MUJ students",
   },
 };
 
@@ -38,11 +40,16 @@ export const viewport = {
 };
 
 const isDevelopment = process.env.NODE_ENV === "development";
+
 const connectSrc = [
   "'self'",
   "https://www.googleapis.com",
   "https://drive.google.com",
   "https://docs.google.com",
+  "https://mujtoppers.in",
+  "https://*.mujtoppers.in",
+  isDevelopment && "http://localhost:3000",
+  "https://vitals.vercel-insights.com",
   "https://mujtoppers.in",
   "https://material.mujtoppers.in",
   "http://mujtoppers.in",
@@ -55,23 +62,55 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Content Security Policy */}
-        <meta httpEquiv="Content-Security-Policy" content={`default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://lh3.googleusercontent.com https://drive.google.com; font-src 'self' data:; connect-src ${connectSrc}; frame-src 'self' https://drive.google.com https://docs.google.com; media-src 'self' https://drive.google.com;`} />
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content={`
+            default-src 'self';
+            script-src 'self' 'unsafe-inline' 'unsafe-eval';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data: blob:
+              https://lh3.googleusercontent.com
+              https://drive.google.com
+              https://mujtoppers.in
+              https://*.mujtoppers.in;
+            font-src 'self' data:;
+            connect-src ${connectSrc};
+            frame-src 'self'
+              https://drive.google.com
+              https://docs.google.com
+              https://mujtoppers.in
+              https://*.mujtoppers.in;
+            media-src 'self' blob:
+              https://drive.google.com
+              https://mujtoppers.in
+              https://*.mujtoppers.in;
+          `}
+        />
 
-        {/* Preconnect to external domains for faster loading */}
-        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+        <link
+          rel="preconnect"
+          href="https://lh3.googleusercontent.com"
+        />
         <link rel="preconnect" href="https://drive.google.com" />
         <link rel="preconnect" href="https://www.googleapis.com" />
-        <link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
+        <link rel="preconnect" href="https://mujtoppers.in" />
+
+        <link
+          rel="dns-prefetch"
+          href="https://lh3.googleusercontent.com"
+        />
         <link rel="dns-prefetch" href="https://drive.google.com" />
         <link rel="dns-prefetch" href="https://www.googleapis.com" />
+        <link rel="dns-prefetch" href="https://mujtoppers.in" />
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
         <ProtectionScript />
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
