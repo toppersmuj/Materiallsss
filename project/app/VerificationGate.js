@@ -2,11 +2,18 @@
 
 import { useEffect, useState } from "react";
 
-const BASE_ORIGIN =
-    process.env.NODE_ENV === "development"
-        ? "http://localhost:3000"
-        : "https://mujtoppers.in";
 const REDIRECT_FLAG = "verification_redirect_in_progress";
+const ACCESS_COOKIE_NAME = "site_access_verified";
+
+function hasVerificationCookie() {
+    if (typeof document === "undefined") {
+        return false;
+    }
+
+    return document.cookie
+        .split("; ")
+        .some((cookie) => cookie === `${ACCESS_COOKIE_NAME}=1`);
+}
 
 export default function VerificationGate({ children, fallback = null }) {
     const [isAllowed, setIsAllowed] = useState(false);
@@ -19,37 +26,22 @@ export default function VerificationGate({ children, fallback = null }) {
     );
 
     useEffect(() => {
-        const checkVerification = async () => {
-            try {
-                const response = await fetch(`${BASE_ORIGIN}/api/turnstile/verify`, {
-                    method: "GET",
-                    credentials: "include",
-                    cache: "no-store",
-                });
+        if (hasVerificationCookie()) {
+            window.sessionStorage.removeItem(REDIRECT_FLAG);
+            setIsAllowed(true);
+            return;
+        }
 
-                const data = await response.json().catch(() => ({}));
+        window.sessionStorage.setItem(REDIRECT_FLAG, "1");
+        const currentUrl = window.location.href;
+        const baseOrigin =
+            process.env.NODE_ENV === "development"
+                ? "http://localhost:3000"
+                : "https://mujtoppers.in";
 
-                if (response.ok && data?.verified === true) {
-                    window.sessionStorage.removeItem(REDIRECT_FLAG);
-                    setIsAllowed(true);
-                    return;
-                }
-
-                window.sessionStorage.setItem(REDIRECT_FLAG, "1");
-                const currentUrl = window.location.href;
-                window.location.replace(
-                    `${BASE_ORIGIN}/verify?next=${encodeURIComponent(currentUrl)}`,
-                );
-            } catch {
-                window.sessionStorage.setItem(REDIRECT_FLAG, "1");
-                const currentUrl = window.location.href;
-                window.location.replace(
-                    `${BASE_ORIGIN}/verify?next=${encodeURIComponent(currentUrl)}`,
-                );
-            }
-        };
-
-        void checkVerification();
+        window.location.replace(
+            `${baseOrigin}/verify?next=${encodeURIComponent(currentUrl)}`,
+        );
     }, []);
 
     if (isAllowed) {
