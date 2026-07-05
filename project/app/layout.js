@@ -43,7 +43,10 @@ const connectSrc = [
   "https://www.googleapis.com",
   "https://drive.google.com",
   "https://docs.google.com",
-  "http://localhost:3000"
+  "https://mujtoppers.in",
+  "https://material.mujtoppers.in",
+  "http://mujtoppers.in",
+  "http://material.mujtoppers.in"
 ]
   .filter(Boolean)
   .join(" ");
