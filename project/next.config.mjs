@@ -2,6 +2,19 @@
 const nextConfig = {
   reactCompiler: true,
 
+  async rewrites() {
+    if (process.env.NODE_ENV !== 'development') {
+      return [];
+    }
+
+    return [
+      {
+        source: '/api/turnstile/verify',
+        destination: 'http://localhost:3000/api/turnstile/verify',
+      },
+    ];
+  },
+
 
   // Image optimization
   images: {
