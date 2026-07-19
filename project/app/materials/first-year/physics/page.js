@@ -15,7 +15,7 @@ const subjects = [
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke?usp=drive_link" },
-      { label: "Video Playlists", href: "https://www.youtube.com/playlist?list=PLuAADu3OvBt495Awir13ZNM-gv5IwLGQy" },
+      { label: "Video Playlists", href: "https://www.youtube.com/watch?v=cFxKviofjtk&list=PLcNkMHAVJZr7RpsuabjxKgd7awmRZdBg7" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1tMWeeRZ-9qhmQ0hoMlngzVmXSei-wotk/view?usp=sharing" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1vLEnibhuw07qeEWdmO3hHFX2VIqULpvh?usp=drive_link" },
     ],
@@ -27,7 +27,7 @@ const subjects = [
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1E9xiBOD7h4fPZmhdEPcgHbdfMCQFJShj?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1uwQXdisM65p-Th-sUXc1TPh-X1mi8EbB?usp=drive_link" },
-      { label: "Video Playlists", href: "https://www.youtube.com/playlist?list=PLDh_nHdEw3KPPjngTAmQgcYY8zBA6kkX8" },
+      { label: "Video Playlists", href: "https://www.youtube.com/watch?v=oiV7I8xQ4sU&list=PLcNkMHAVJZr6mvvy1gKioOY0R-8pq9u0-" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1LA8-hkDjSbpyNv7B4r8714hQXdXXzRnf/view?usp=sharing" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1WczQcbVvPcB294Jy3MjXcU_5u_-mbZMK?usp=drive_link" },
     ],
@@ -75,7 +75,7 @@ const subjects = [
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1jxiFP_HFpCYDSPb2hwd2wJHZrYbgqPPz?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1a1onO670Zw09Ko-PNrISSzP97AI1xZSl?usp=drive_link"},
-      { label: "Video Playlists", href: "https://www.youtube.com/playlist?list=PLB_MQaW6RcuukNazriXq2TZYTyq8D_5uR" },
+      { label: "Video Playlists", href: "https://www.youtube.com/watch?v=mi--nGzvIT0&list=PLcNkMHAVJZr4IJFQ_PJSPnoJLjk-_CQzF" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1JgGFDWvFm9N3Ur8K8-ylwTEKR55RqwNq?usp=drive_link" },
     ],
@@ -111,7 +111,7 @@ const subjects = [
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1icdRleVL_OB6mx2Mj3dZAwEwDC0JxM2Z?usp=drive_link" },
       { label: "Topper Notes", href: "" },
-      { label: "Video Playlists", href: "" },
+      { label: "Video Playlists", href: "https://www.youtube.com/watch?v=leXt9btuyEY&list=PLcNkMHAVJZr4AsmftTx5slMud108TW52Q" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "" },
     ],
@@ -123,7 +123,7 @@ const subjects = [
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1Mgft8Oi7PmlsmKSjqeckIemCeQIkJsFU?usp=drive_link" },
       { label: "Topper Notes", href: "" },
-      { label: "Video Playlists", href: "" },
+      { label: "Video Playlists", href: "https://www.youtube.com/watch?v=xLetJpcjHS0&list=PLcNkMHAVJZr6lHF_d9UqX9gD-jOzuZTHB" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1xselz6CvZGbDxyR6mqXJPdWCyNtWjWzn?usp=drive_link" },
     ],
