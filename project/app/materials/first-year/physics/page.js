@@ -110,10 +110,10 @@ const subjects = [
     image: "/DV.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1icdRleVL_OB6mx2Mj3dZAwEwDC0JxM2Z?usp=drive_link" },
-      { label: "Topper Notes", href: "" },
+      { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=leXt9btuyEY&list=PLcNkMHAVJZr4AsmftTx5slMud108TW52Q" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "" },
+      { label: "PPT Links", href: "/coming-soon" },
     ],
   },
   {
@@ -122,7 +122,7 @@ const subjects = [
     image: "/FDS.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1Mgft8Oi7PmlsmKSjqeckIemCeQIkJsFU?usp=drive_link" },
-      { label: "Topper Notes", href: "" },
+      { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=xLetJpcjHS0&list=PLcNkMHAVJZr6lHF_d9UqX9gD-jOzuZTHB" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1xselz6CvZGbDxyR6mqXJPdWCyNtWjWzn?usp=drive_link" },
@@ -134,10 +134,10 @@ const subjects = [
     image: "/ET.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/17VytjjVlUCyV5tkcBIVB1voVufQ5gQBz?usp=drive_link" },
-      { label: "Topper Notes", href: "" },
-      { label: "Video Playlists", href: "" },
+      { label: "Topper Notes", href: "/coming-soon" },
+      { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/14TpoAGKMLPg0AssfhVTkQd-sFGCUj_2k?usp=drive_link" },
     ],
   },
   {
@@ -146,8 +146,8 @@ const subjects = [
     image: "/AM1.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1MvhGP7ida4115J-dwY3mHMJkQYo4R8Wo?usp=drive_link" },
-      { label: "Topper Notes", href: "" },
-      { label: "Video Playlists", href: "" },
+      { label: "Topper Notes", href: "/coming-soon" },
+      { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1N-OqAd4b_vFHvxoqLBKSpDJ3urRlsqJc?usp=drive_link" },
     ],
