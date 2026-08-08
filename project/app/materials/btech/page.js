@@ -50,6 +50,13 @@ const branches = [
     image: "/ECE.png",
     href: "/materials/btech/ece",
   },
+   {
+    id: "elc",
+    title: "Electrical and Computer",
+    icon: "⚡",
+    image: "/elc.png",
+    href: "/materials/btech/elc",
+  },
   {
     id: "iot",
     title: "IOT",
