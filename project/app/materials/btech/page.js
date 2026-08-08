@@ -54,7 +54,7 @@ const branches = [
     id: "elc",
     title: "Electrical and Computer",
     icon: "⚡",
-    image: "/elc.png",
+    image: "/elc.jpg",
     href: "/materials/btech/elc",
   },
   {
