@@ -106,6 +106,18 @@ export function isPPT(mimeType) {
 }
 
 /**
+ * Check if item is a Word document
+ * @param {string} mimeType - The MIME type of the item
+ * @returns {boolean}
+ */
+export function isWordDocument(mimeType) {
+  return mimeType === 'application/vnd.google-apps.document' ||
+         mimeType === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' ||
+         mimeType === 'application/msword' ||
+         mimeType === 'application/vnd.ms-word';
+}
+
+/**
  * Get PDF preview URL
  * @param {string} fileId - The Google Drive file ID
  * @returns {string} Preview URL
@@ -143,6 +155,15 @@ export function getAlternativePDFUrl(fileId) {
  */
 export function getPPTPreviewUrl(fileId) {
   // Use Drive preview for better compatibility with uploaded PowerPoint files
+  return `https://drive.google.com/file/d/${fileId}/preview`;
+}
+
+/**
+ * Get Word document preview URL
+ * @param {string} fileId - The Google Drive file ID
+ * @returns {string} Preview URL
+ */
+export function getWordPreviewUrl(fileId) {
   return `https://drive.google.com/file/d/${fileId}/preview`;
 }
 

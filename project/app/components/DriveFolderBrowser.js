@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { listFilesInFolder, isFolder, isPDF, isPPT, getPDFPreviewUrl } from "@/lib/googleDrive";
+import { listFilesInFolder, isFolder, isPDF, isPPT, isWordDocument } from "@/lib/googleDrive";
 
 export default function DriveFolderBrowser({ folderId, onFileClick, onPPTClick }) {
   const [items, setItems] = useState([]);
@@ -39,8 +39,8 @@ export default function DriveFolderBrowser({ folderId, onFileClick, onPPTClick }
       // Navigate into folder
       setCurrentPath([...currentPath, { id: item.id, name: item.name }]);
       loadFolder(item.id);
-    } else if (isPDF(item.mimeType)) {
-      // Open PDF viewer
+    } else if (isPDF(item.mimeType) || isWordDocument(item.mimeType)) {
+      // Open document viewer for PDFs and Word files
       onFileClick?.(item);
     } else if (isPPT(item.mimeType)) {
       // Open PPT viewer
@@ -118,6 +118,7 @@ export default function DriveFolderBrowser({ folderId, onFileClick, onPPTClick }
           {items.map((item) => {
             const itemIsFolder = isFolder(item.mimeType);
             const itemIsPDF = isPDF(item.mimeType);
+            const itemIsWord = isWordDocument(item.mimeType);
             const itemIsPPT = isPPT(item.mimeType);
 
             return (
@@ -140,6 +141,10 @@ export default function DriveFolderBrowser({ folderId, onFileClick, onPPTClick }
                     <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center text-xl">
                       📊
                     </div>
+                  ) : itemIsWord ? (
+                    <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-xl">
+                      📝
+                    </div>
                   ) : (
                     <div className="w-10 h-10 rounded-lg bg-zinc-100 flex items-center justify-center text-xl">
                       📎
@@ -153,7 +158,7 @@ export default function DriveFolderBrowser({ folderId, onFileClick, onPPTClick }
                     {item.name}
                   </h3>
                   <p className="text-xs text-zinc-500">
-                    {itemIsFolder ? "Folder" : itemIsPPT ? "Presentation" : item.size ? `${(item.size / 1024 / 1024).toFixed(2)} MB` : "File"}
+                    {itemIsFolder ? "Folder" : itemIsPPT ? "Presentation" : itemIsWord ? "Word Document" : item.size ? `${(item.size / 1024 / 1024).toFixed(2)} MB` : "File"}
                   </p>
                 </div>
 

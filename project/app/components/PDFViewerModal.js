@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { getDriveDownloadUrl, getPDFPreviewUrl } from "@/lib/googleDrive";
+import { getDriveDownloadUrl, getPDFPreviewUrl, getWordPreviewUrl, isPDF, isWordDocument } from "@/lib/googleDrive";
 
 export default function PDFViewerModal({ file, onClose }) {
   const [iframeKey, setIframeKey] = useState(Date.now());
@@ -45,8 +45,13 @@ export default function PDFViewerModal({ file, onClose }) {
 
   if (!file) return null;
 
+  const isWordDoc = isWordDocument(file.mimeType);
+  const isPdfFile = isPDF(file.mimeType);
+
   // Use Drive preview - works with view-only permissions
-  const previewUrl = `${getPDFPreviewUrl(file.id)}?rm=minimal&embedded=true`;
+  const previewUrl = isWordDoc
+    ? `${getWordPreviewUrl(file.id)}?rm=minimal&embedded=true`
+    : `${getPDFPreviewUrl(file.id)}?rm=minimal&embedded=true`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/90 backdrop-blur-sm">
@@ -59,7 +64,7 @@ export default function PDFViewerModal({ file, onClose }) {
               {file.name}
             </h2>
             <p className="text-sm text-zinc-500">
-              {file.size ? `${(file.size / 1024 / 1024).toFixed(2)} MB` : "PDF Document"}
+              {file.size ? `${(file.size / 1024 / 1024).toFixed(2)} MB` : isWordDoc ? "Word Document" : isPdfFile ? "PDF Document" : "Document"}
             </p>
           </div>
           <div className="flex items-center gap-2 ml-4">
@@ -110,7 +115,7 @@ export default function PDFViewerModal({ file, onClose }) {
           </div>
         </div>
 
-        {/* PDF Viewer */}
+        {/* Document Viewer */}
         <div className="relative w-full h-[calc(100%-5rem)] bg-white rounded-b-2xl shadow-2xl overflow-hidden">
           {/* Branded overlay to hide pop-out button */}
           <div className="absolute top-0 right-0 z-10 pointer-events-none bg-zinc-800 p-2 rounded-bl-lg shadow-lg">
