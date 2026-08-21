@@ -19,7 +19,7 @@ const years = [
       { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "/coming-soon" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/u/0/folders/19U6sPudegiYgk_LmJyne4jbbxZsUSqLI" },
     ],
   },
   {
