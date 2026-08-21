@@ -15,7 +15,7 @@ const years = [
     image: "/2nd-year.png",
     description: "Core engineering courses and fundamentals with curated lecture notes and PYQs.",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/13K5JHuIsu0j32BjPHGP-ldtePmIDTyC5?usp=drive_link" },
+      { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1gIwJpuz8s8L2WY4_aTztMHCWCVaIyBBY" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1z6QwvT4S61KRQ15Loiyl-O0pZHAzaXM8?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
