@@ -16,7 +16,7 @@ const years = [
     description: "Core engineering courses and fundamentals with curated lecture notes and PYQs.",
     resources: [
       { label: "PYQs", href: "/coming-soon" },
-      { label: "Topper Notes", href: "/coming-soon" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1Ronw38mKOBUTjsSMffzAtr1Jm4xi5JnQ" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/u/0/folders/19U6sPudegiYgk_LmJyne4jbbxZsUSqLI" },
