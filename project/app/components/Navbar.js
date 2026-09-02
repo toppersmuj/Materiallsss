@@ -53,12 +53,7 @@ export default function Navbar() {
             >
               Home
             </Link>
-            <Link
-              href="https://www.Mujhostels.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
-            >MUJHostels</Link>
+          
             <Link
               href="https://material.mujtoppers.in "
               className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
