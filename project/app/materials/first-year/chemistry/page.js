@@ -17,7 +17,7 @@ const subjects = [
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1LDW0nEprx0ist_bksa1yfVvkkSVUSiVY?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1-b9UqQAlnWScESNJY44U6NHckBK5nXIz?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1-b9UqQAlnWScESNJY44U6NHckBK5nXIz?usp=drive_link" },
     ],
   },
   {
@@ -26,10 +26,10 @@ const subjects = [
     image: "/chemistry-cam.png",
     resources: [
       { label: "PYQs", href: "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm?usp=drive_link" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV?usp=sharing" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV?usp=drive_link" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=p5rBJj5CKCg&list=PLU6SqdYcYsfLPxjd-k-MaoG7qgRQ-2fKc" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1Z5iIhj5j7em8VY-FNC9xkQUMJl5kX-ld/view?usp=sharing" },
-      { label: "PPT Links", href: "/coming-soon" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1FkfpRKnU_qgP1ZeGO2JaYSvsutBXeLlW?usp=drive_link" },
     ],
   },
   {
@@ -49,11 +49,11 @@ const subjects = [
     title: "Digital Systems",
     image: "/chemistry-ds.png",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1yeExodboTvLqQlFLK1HpgUUqB9DCPzw9?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1yeExodboTvLqQlFLK1HpgUUqB9DCPzw9?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1cZ-9hZf6qAxPq499xetV_5xkwY0wovf0?usp=drive_link" },
       { label: "Video Playlists", href: "https://www.youtube.com/watch?v=Vd2UJiIPbag&list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1yqGjU8dl5qC7oXpLImorqkQOuueFs6Ip?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1yqGjU8dl5qC7oXpLImorqkQOuueFs6Ip?usp=drive_link" },
     ],
   },
   {
@@ -61,7 +61,7 @@ const subjects = [
     title: "Engineering Graphics",
     image: "/chemistry-eg.png",
     resources: [
-      { label: "PYQs", href: "/coming-soon" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1qqY4NlR1D9kPWKozXCF6gq-2xvTNsWWm?usp=drive_link" },
       { label: "Topper Notes", href: "/coming-soon" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
@@ -77,7 +77,7 @@ const subjects = [
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1JnVhkK5vg93hTzYq11Cr7NE8seneqdU1?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1yeR_8v8ZqD450_rL8koQdaMEq7m8_47f?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1yeR_8v8ZqD450_rL8koQdaMEq7m8_47f?usp=drive_link" },
     ],
   },
   {
@@ -109,11 +109,11 @@ const subjects = [
     title: "Problem Solving Using Computers",
     image: "https://lh3.googleusercontent.com/d/1qNmcdINQ1sgw6dVt2AaUsF2z3-ucWqNZ",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1uCD8YvS2FX9jSoSpuRSvkeNMPVzXvg29?usp=sharing" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1uCD8YvS2FX9jSoSpuRSvkeNMPVzXvg29?usp=drive_link" },
       { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1nj16NcCCIgI3kmmkT-eisrKg_BKN2yKA?usp=drive_link" },
       { label: "Video Playlists", href: "https://youtu.be/aZb0iu4uGwA?si=VZgQb_cPf9gTpxnq" },
       { label: "Roadmap", href: "https://drive.google.com/file/d/1z157mHPpnqS9nuAURS0gR14bUGUt7Cap/view?usp=sharing" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1NFKR4nxD6nRoM06WgRyp6rbZ6GHouUKr?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1NFKR4nxD6nRoM06WgRyp6rbZ6GHouUKr?usp=drive_link" },
     ],
   },
   {
@@ -121,11 +121,11 @@ const subjects = [
     title: "Universal Human Values",
     image: "/chemistry-uhv.png",
     resources: [
-      { label: "PYQs", href: "/coming-soon" },
-      { label: "Topper Notes", href: "/coming-soon" },
+      { label: "PYQs", href: "https://drive.google.com/drive/folders/1jnYPruY0brgWmw4RJ9I6JjRzjy0x3gsC?usp=drive_link" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1VT0vuKc8c2EOhNYd0PbHbOMiTZtzzurZ?usp=drive_link" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
-      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1X7pOQKOyYhbVjbDxsGBOditmRDqQOyfJ?usp=sharing" },
+      { label: "PPT Links", href: "https://drive.google.com/drive/folders/1X7pOQKOyYhbVjbDxsGBOditmRDqQOyfJ?usp=drive_link" },
     ],
   },
 ];
