@@ -29,8 +29,8 @@ const years = [
     image: "/3rd-year.png",
     description: "Advanced topics, specialization courses, and project-based learning materials.",
     resources: [
-      { label: "PYQs", href: "https://drive.google.com/drive/folders/1zKQzUXBoXPtIM6kJ8848HSk1gvz3pQ8V?usp=drive_link" },
-      { label: "Topper Notes", href: "https://drive.google.com/drive/folders/1_6TXT1wyF06ziT0Di39SQyp_KAkAqhT1?usp=drive_link" },
+      { label: "PYQs", href: "https://drive.google.com/drive/u/0/folders/1ffT1SlYU9MDNYwT7HUccSUI-na9nNEPX" },
+      { label: "Topper Notes", href: "https://drive.google.com/drive/u/0/folders/11xxWbcoJsTPuwIVsP0MuCRXG_-2E7lUv" },
       { label: "Video Playlists", href: "/coming-soon" },
       { label: "Roadmap", href: "/coming-soon" },
       { label: "PPT Links", href: "https://drive.google.com/drive/folders/1x1vZmUoTjCo_X6LOUFZHuHbj5NeeM6VQ?usp=drive_link" },
