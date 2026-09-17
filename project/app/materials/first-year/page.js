@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HiringBanner from "@/app/components/HiringBanner";
 
 const cycles = [
   {
@@ -55,6 +56,7 @@ export default function FirstYearPage() {
             {" "}
             <span className="animate-word-4 inline-block text-gradient-orange">Cycle</span>
           </h1>
+          <HiringBanner />
           <p className="animate-fade-in-up text-sm leading-relaxed text-zinc-600 sm:text-base">
             Pick your specialization and dive into curated study resources, notes, and more.
           </p>

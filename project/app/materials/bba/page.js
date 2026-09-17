@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HiringBanner from "@/app/components/HiringBanner";
 
 const years = [
   {
@@ -43,6 +44,7 @@ export default function BBAPage() {
             {" "}
             <span className="animate-word-3 inline-block text-zinc-900">Years</span>
           </h1>
+          <HiringBanner />
           <p className="animate-fade-in-up text-sm leading-relaxed text-zinc-600 sm:text-base">
             Pick your year and dive into curated business study resources, notes, and more.
           </p>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import HiringBanner from "../components/HiringBanner";
 
 export default function ComingSoonPage() {
   const router = useRouter();
@@ -25,6 +26,7 @@ export default function ComingSoonPage() {
           <h1 className="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl">
             <span className="text-[#ff6a00]">Coming</span> Soon
           </h1>
+          <HiringBanner />
           
           <p className="text-lg leading-relaxed text-zinc-600 sm:text-xl">
             We're working hard to bring you this. Check back soon for updates!

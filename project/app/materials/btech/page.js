@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HiringBanner from "@/app/components/HiringBanner";
 
 const branches = [
   {
@@ -108,6 +109,7 @@ export default function BTechBranches() {
             {" "}
             <span className="animate-word-3 inline-block text-zinc-900">Branches</span>
           </h1>
+          <HiringBanner />
           <p className="animate-fade-in-up text-sm leading-relaxed text-zinc-600 sm:text-base">
             Select your engineering branch to access curated study materials, notes, and resources.
           </p>

@@ -6,6 +6,7 @@ import DriveFolderBrowser from "@/app/components/DriveFolderBrowser";
 import PDFViewerModal from "@/app/components/PDFViewerModal";
 import PPTViewerModal from "@/app/components/PPTViewerModal";
 import { extractFileId } from "@/lib/googleDrive";
+import HiringBanner from "@/app/components/HiringBanner";
 
 const subjects = [
   {
@@ -225,6 +226,7 @@ export default function BBAFirstYearSubjects() {
             {" "}
             <span className="animate-word-4 inline-block text-zinc-900">The Resources</span>
           </h1>
+          <HiringBanner />
           <p className="animate-fade-in-up text-sm leading-relaxed text-zinc-600 sm:text-base">
             Handpicked PDFs, PYQs, slide decks, and study materials to keep your BBA prep focused. Tap a subject to jump straight to the external resource listing.
           </p>

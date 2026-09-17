@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HiringBanner from "./components/HiringBanner";
 
 const tracks = [
   {
@@ -78,6 +79,7 @@ export default function Home() {
               Starts Here
             </span>
           </h1>
+          <HiringBanner align="left" />
         </section>
 
         <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

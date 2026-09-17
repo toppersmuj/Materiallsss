@@ -6,6 +6,7 @@ import DriveFolderBrowser from "@/app/components/DriveFolderBrowser";
 import PDFViewerModal from "@/app/components/PDFViewerModal";
 import PPTViewerModal from "@/app/components/PPTViewerModal";
 import { extractFileId } from "@/lib/googleDrive";
+import HiringBanner from "@/app/components/HiringBanner";
 
 const years = [
   {
@@ -96,6 +97,7 @@ export default function AIMLPage() {
             {" "}
             <span className="animate-word-3 inline-block text-zinc-900">Years</span>
           </h1>
+          <HiringBanner />
           <p className="animate-fade-in-up text-sm leading-relaxed text-zinc-600 sm:text-base">
             Pick your year and dive into curated AI & ML study resources, notes, and more.
           </p>
